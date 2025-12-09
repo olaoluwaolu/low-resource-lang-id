@@ -1,4 +1,4 @@
-# Low Resource Language Identification
+# 🔍Low Resource Language Identification
 The objective of this work is to develop a model capable of identifying what language is being spoken from an audio utterance. The language options are Asturian (spoken in Spain), Assamese (spoken in India), and Bafut (spoken in Cameroon). They key challenege faced in this work is the limited training data (audio utterances).
 
 ## 🗣️Dataset
@@ -26,8 +26,7 @@ Needed: Google Drive, Google Colab
  2. ⬆️ Upload X_train, X_test, y_train, y_test to Google Drive
  3. 📖 Open the .ipynb file in Google Colab and run ✅
 
-## Results: 
-
+## Results
 Below, we show the comparative results of the training and test of the models. The best performing model is LDA (based on the F1 Macro score). The F1 Macro score was chosen for its ability to handle class imbalance
 
  | Model   | Training Precision | Training Recall | Training F1 Macro | Test Precision | Test Recall | Test F1 Macro |
