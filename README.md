@@ -1,7 +1,7 @@
 # 🔍Low Resource Language Identification
 
 # TL;DR
-* Implemented and compared Random Forest (baseline; since it is non-parametric and works well with small datasets), KNN, QDA, and LDA models for low-resource language identification across three languages (Asturian – Spain, Assamese – India, Bafut – Cameroon) using <3,000 audio samples.
+* Implemented and compared Random Forest (baseline; chosen since it is non-parametric and works well with small datasets), KNN, QDA, and LDA models for low-resource language identification across three languages (Asturian – Spain, Assamese – India, Bafut – Cameroon) using <3,000 audio samples.
 
 * Engineered MFCC, pitch, and spectral features (e.g., spectral bandwidth, spectral roll-off), standardized inputs, and tuned models via cross-validation, achieving F1-macro scores of 76% (LDA), 71% (KNN), 69% (QDA), and 67% (Random Forest), with LDA outperforming the RF baseline by a difference of 13%.
 
