@@ -1,9 +1,12 @@
 # 🔍Low Resource Language Identification
 
 # TL;DR
-* Implemented and compared Random Forest (baseline; chosen since it is non-parametric and works well with small datasets), KNN, QDA, and LDA models for low-resource language identification across three languages (Asturian – Spain, Assamese – India, Bafut – Cameroon) using <3,000 audio samples.
+* Implemented and compared Random Forest (RF; baseline), KNN, QDA, and LDA models for low-resource language identification across three languages (Asturian – Spain, Assamese – India, Bafut – Cameroon) using <3,000 utterances
 
-* Engineered MFCC, pitch, and spectral features (e.g., spectral bandwidth, spectral roll-off), standardized inputs, and tuned models via cross-validation, achieving F1-macro scores of 76% (LDA), 71% (KNN), 69% (QDA), and 67% (Random Forest), with LDA outperforming the RF baseline by a difference of 13%.
+* Engineered MFCC, pitch, and spectral features (e.g. spectral roll-off), standardized inputs, and tuned models via grid search and cross validation
+
+* Achieved F1-macro scores of 76% (LDA), 71% (KNN), 69% (QDA), and 67% (Random Forest), with LDA outperforming the RF baseline by 13% 
+
 
 # 🎯Objective
 The objective of this work is to develop a model capable of identifying what language is being spoken from an audio utterance. The language options are Asturian (spoken in Spain), Assamese (spoken in India), and Bafut (spoken in Cameroon). They key challenege faced in this work is the limited training data (audio utterances).
