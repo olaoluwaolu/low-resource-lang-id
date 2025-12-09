@@ -13,7 +13,7 @@ In this work, the authors aim to investigate and present the results of the trai
 | Development utterances           |   113    |   485    | 252  | **850**    |
 | Test utterances                  |   203    |   394    |  254  | **851**    |
 
-**Dataset statistics across the three languages**
+**Table: Dataset statistics across the three languages**
 
 </p>
 
@@ -37,7 +37,7 @@ Below, we show the comparative results of the training and test of the models. T
 | **_LDA_** | **_0.98_**          | **_0.98_**        | **_0.98_**          | **_0.76_**       | **_0.77_**    | **_0.76_**      |
 | QDA     | 0.99              | 0.99            | 0.99              | 0.70           | 0.70        | 0.69          |
 
-**Table:** Model Comparison Results on Train and Test set
+**Table: Model Comparison Results on Train and Test set**
  
 ### K-Nearest Neighbors
 <img width="800" height="450" alt="knn" src="https://github.com/user-attachments/assets/2d85bede-e145-45dc-8317-2ed3b29f9934" />
