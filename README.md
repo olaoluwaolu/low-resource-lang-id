@@ -17,7 +17,7 @@
 **Table:** Model Comparison Results on Train and Test set
  
 ### K-Nearest Neighbors
-<img width="960" height="540" alt="knn" src="https://github.com/user-attachments/assets/2d85bede-e145-45dc-8317-2ed3b29f9934" />
+<img width="800" height="450" alt="knn" src="https://github.com/user-attachments/assets/2d85bede-e145-45dc-8317-2ed3b29f9934" />
 
 ### Random Forest
 
