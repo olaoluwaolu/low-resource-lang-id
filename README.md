@@ -1,4 +1,21 @@
-# 
+# Low Resource Language Identification
+The objective of this work is to develop a model capable of classifying between three different languages using an audio utterance. They key challenege faced in this work is the limited training data (audio utterances).
+
+## 🗣️Dataset
+In this work, the authors aim to investigate and present the results of the training and testing of a machine learning model capable of distinguishing between 3 different languages, namely: Asturian (spoken in Spain), Assamese (spoken in India), and Bafut (spoken in Cameroon). Each language dataset was obtained from the Common Voice Dataset hosted by Mozilla.
+
+<p align="center">
+
+| Feature                          | Asturian | Assamese | Bafut | **Totals** |
+|----------------------------------|:--------:|:--------:|:-----:|:----------:|
+| Number of speakers             |    30    |    51    |   36  | **117**    |
+| Train utterances                 |   434    |   953    |  260  | **1647**   |
+| Development utterances           |   113    |   485    | 252  | **850**    |
+| Test utterances                  |   203    |   394    |  254  | **851**    |
+
+**Dataset statistics across the three languages**
+
+</p>
 
 ## 🏃‍♂️Running the code
 Needed: Google Drive, Google Colab
