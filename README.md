@@ -25,6 +25,7 @@ In this work, the authors aim to investigate and present the results of the trai
 | Test utterances                  |   203    |   394    |  254  | **851**    |
 
 **Table: Dataset statistics across the three languages**
+_Note: there might be slight variations in the computed results, but they should not deviate greatly from this table_
 
 </p>
 
