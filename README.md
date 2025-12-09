@@ -7,7 +7,14 @@
 ### 3. 📖 Open the .ipynb file in Google Colab and run ✅
 
 ## Results: 
- insert table of results
+ | Model   | Training Precision | Training Recall | Training F1 Macro | Test Precision | Test Recall | Test F1 Macro |
+|:--------|:------------------|:----------------|:------------------|:---------------|:------------|:--------------|
+| KNN     | 1.00              | 1.00            | 1.00              | 0.72           | 0.70        | 0.71          |
+| RF      | 1.00              | 1.00            | 1.00              | 0.71           | 0.67        | 0.67          |
+| **LDA** | **0.98**          | **0.98**        | **0.98**          | **0.76**       | **0.77**    | **0.76**      |
+| QDA     | 0.99              | 0.99            | 0.99              | 0.70           | 0.70        | 0.69          |
+
+**Table:** Model Comparison Results on Train and Test set
  
 ### K-Nearest Neighbors
 ### Random Forest
