@@ -2,7 +2,7 @@
 
 # TL;DR
 * Implemented and compared K-Nearest Neighbour (KNN; baseline), Random Forest (RF), QDA, and LDA models for low-resource language identification across three languages (Asturian – Spain, Assamese – India, Bafut – Cameroon) using <3,000 utterances
- * _NOTE: KNN was chosen as the baseline because it is non-parametric and for its ability to work well with small datasets_
+  * _NOTE: KNN was chosen as the baseline because it is non-parametric and for its ability to work well with small datasets_
 
 * Engineered MFCC, pitch, and spectral features (e.g. spectral roll-off), standardized inputs, and tuned models via grid search and cross validation
 
