@@ -25,7 +25,6 @@ In this work, the authors aim to investigate and present the results of the trai
 | Test utterances                  |   203    |   394    |  254  | **851**    |
 
 **Table: Dataset statistics across the three languages**
-_Note: there might be slight variations in the computed results, but they should not deviate greatly from this table_
 
 </p>
 
@@ -49,6 +48,7 @@ Below, we show the comparative results of the training and test of the models. T
 | QDA     | 0.99              | 0.99            | 0.99              | 0.70           | 0.70        | 0.69          |
 
 **Table: Model Comparison Results on Train and Test set**
+_Note: there might be slight variations in the computed results, but they should not deviate greatly from this table_
  
 ### K-Nearest Neighbors
 <img width="800" height="450" alt="knn" src="https://github.com/user-attachments/assets/2d85bede-e145-45dc-8317-2ed3b29f9934" />
