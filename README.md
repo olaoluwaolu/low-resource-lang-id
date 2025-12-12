@@ -6,7 +6,7 @@
 
 * Engineered MFCC, pitch, and spectral features (e.g. spectral roll-off), standardized inputs, and tuned models via grid search and cross validation
 
-* Achieved F1-macro scores of 76% (LDA), 71% (KNN), 69% (QDA), and 67% (Random Forest), with LDA outperforming the KNN baseline by 7%
+* Achieved F1-macro scores of 76% (LDA), 71% (KNN), 69% (QDA), and 63% (Random Forest), with LDA outperforming the KNN baseline by 7%
 
 
 # 🎯Objective
@@ -43,18 +43,17 @@ Below, we show the comparative results of the training and test of the models. T
  | Model   | Training Precision | Training Recall | Training F1 Macro | Test Precision | Test Recall | Test F1 Macro |
 |:--------|:------------------|:----------------|:------------------|:---------------|:------------|:--------------|
 | KNN     | 1.00              | 1.00            | 1.00              | 0.72           | 0.70        | 0.71          |
-| RF      | 1.00              | 1.00            | 1.00              | 0.71           | 0.67        | 0.67          |
+| RF      | 1.00              | 1.00            | 1.00              | 0.67           | 0.64        | 0.63          |
 | **_LDA_** | **_0.98_**          | **_0.98_**        | **_0.98_**          | **_0.76_**       | **_0.77_**    | **_0.76_**      |
 | QDA     | 0.99              | 0.99            | 0.99              | 0.70           | 0.70        | 0.69          |
 
 **Table: Model Comparison Results on Train and Test set**
-_Note: there might be slight variations in the computed results, but they should not deviate greatly from this table_
  
 ### K-Nearest Neighbors
 <img width="800" height="450" alt="knn" src="https://github.com/user-attachments/assets/2d85bede-e145-45dc-8317-2ed3b29f9934" />
 
 ### Random Forest
-<img width="800" height="450" alt="RF" src="https://github.com/user-attachments/assets/b32dba29-5c1c-414c-96ea-f4d3d399cb69" />
+<img width="800" height="450" alt="rf" src="https://github.com/user-attachments/assets/5cb39993-3b57-4e8c-a952-cad3681636aa" /> 
 
 ### Linear Discriminant Analysis
 
